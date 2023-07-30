@@ -2,11 +2,11 @@ function trocarModo() {
     var imgModo = document.getElementById('imgModo');
     var body = document.body;
 
-    if (imgModo.src.includes('sun.png')) {
-        imgModo.src = 'moon.png';
+    if (imgModo.src.includes('assets/img/sun.png')) {
+        imgModo.src = 'assets/img/moon.png';
         body.style.backgroundColor = '#FFFFFF';
     } else {
-        imgModo.src = 'sun.png';
+        imgModo.src = 'assets/img/sun.png';
         body.style.backgroundColor = '#1F1D1D';
     }
 }
